@@ -1,0 +1,4 @@
+suites:
+    main:
+        namespace: RadnoK\AdventOfCode\Day1
+        psr4_prefix: RadnoK\AdventOfCode\Day1
