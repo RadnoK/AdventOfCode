@@ -8,9 +8,9 @@ use RadnoK\AdventOfCode\Day1\Captcha\Exception\NotNumericInputException;
 
 final class NumericInputParser extends AbstractParser
 {
-    public function digits(): string
+    public function content(): string
     {
-        $fileContent = $this->content();
+        $fileContent = parent::content();
 
         if (!is_numeric($fileContent)) {
             throw new NotNumericInputException('File should have only numeric content');

@@ -26,7 +26,7 @@ final class NumericInputParserSpec extends ObjectBehavior
         $input->content()->willReturn('123123');
 
         $this->beConstructedWith($input);
-        $this->digits()->shouldReturn('123123');
+        $this->content()->shouldReturn('123123');
     }
 
     function it_throws_an_exception_when_input_content_is_not_numeric(InputInterface $input): void
@@ -34,6 +34,6 @@ final class NumericInputParserSpec extends ObjectBehavior
         $input->content()->willReturn('123asdasd');
 
         $this->beConstructedWith($input);
-        $this->shouldThrow(NotNumericInputException::class)->during('digits');
+        $this->shouldThrow(NotNumericInputException::class)->during('content');
     }
 }

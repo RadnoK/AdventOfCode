@@ -25,6 +25,6 @@ final class CircleInputParserSpec extends ObjectBehavior
         $input->content()->willReturn('123');
 
         $this->beConstructedWith($input);
-        $this->circled()->shouldReturn('1231');
+        $this->content()->shouldReturn('1231');
     }
 }
