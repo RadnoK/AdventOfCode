@@ -3,16 +3,6 @@
 ## Installation
 ```bash
 git clone git@github.com:RadnoK/AdventOfCode.git
-cd AdventOfCode/day-1
+cd AdventOfCode/day-x
 composer install
-```
-
-## Usage
-```bash
-bin/console captcha:solve
-```
-
-## Tests
-```bash
-bin/phpspec run
 ```
