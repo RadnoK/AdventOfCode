@@ -3,9 +3,11 @@
 
 require __DIR__.'/../vendor/autoload.php';
 
-use RadnoK\AdventOfCode\Day1\Console\CaptchaGateway;
+use RadnoK\AdventOfCode\Day1\Console\PartOneCommand;
+use RadnoK\AdventOfCode\Day1\Console\PartTwoCommand;
 use Symfony\Component\Console\Application;
 
 $application = new Application();
-$application->add(new CaptchaGateway());
+$application->add(new PartOneCommand());
+$application->add(new PartTwoCommand());
 $application->run();

@@ -10,7 +10,6 @@
     ],
     "require": {
         "php": "^7.1",
-        "phpunit/phpunit": "^6.5",
         "symfony/console": "^3.4",
         "symfony/finder": "^3.4"
     },
