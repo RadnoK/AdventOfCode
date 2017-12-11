@@ -22,8 +22,14 @@ Now, instead of considering the next digit, it wants you to consider the digit h
 - `12131415` produces `4`.
 
 ## Usage
+#### Part 1
 ```bash
-bin/console captcha:solve
+bin/console captcha:part-one
+```
+
+#### Part 2
+```bash
+bin/console captcha:part-two
 ```
 
 ## Tests
