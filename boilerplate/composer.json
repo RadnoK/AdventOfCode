@@ -1,0 +1,30 @@
+{
+    "name": "radnok/advent-of-code-day-x",
+    "description": "Day X of http://adventofcode.com/2017",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Konrad Alfaro",
+            "email": "alfaro.konrad@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "symfony/console": "^3.4"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "RadnoK\\AdventOfCode\\DayX\\": "src/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.1"
+        },
+        "sort-packages": true,
+        "bin-dir": "bin"
+    }
+}
